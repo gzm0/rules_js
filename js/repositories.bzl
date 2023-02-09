@@ -11,8 +11,8 @@ def rules_js_dependencies():
 
     http_archive(
         name = "bazel_skylib",
-        sha256 = "f24ab666394232f834f74d19e2ff142b0af17466ea0c69a3f4c276ee75f6efce",
-        urls = ["https://github.com/bazelbuild/bazel-skylib/releases/download/1.4.0/bazel-skylib-1.4.0.tar.gz"],
+        sha256 = "060426b186670beede4104095324a72bd7494d8b4e785bf0d84a612978285908",
+        urls = ["https://github.com/bazelbuild/bazel-skylib/releases/download/1.4.1/bazel-skylib-1.4.1.tar.gz"],
     )
 
     http_archive(
