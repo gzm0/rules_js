@@ -137,19 +137,19 @@ importers:
       rollup: 2.79.1
       tar-stream: 3.0.0
       tslib: 2.4.1
-      typescript: 4.9.4
+      typescript: 4.9.5
     dependencies:
       tar-stream: 3.0.0
     devDependencies:
       '@rollup/plugin-commonjs': 23.0.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 15.0.0_rollup@2.79.1
-      '@rollup/plugin-typescript': 10.0.1_sbiskyiysxhldmns7rmnvoiszu
+      '@rollup/plugin-typescript': 10.0.1_p4zxjh3csaan62zu4p3amdofcm
       '@types/archiver': registry.npmjs.org/@types/archiver/5.3.1
       '@types/node': registry.npmjs.org/@types/node/18.11.11
       '@types/tar-stream': registry.npmjs.org/@types/tar-stream/2.2.2
       rollup: 2.79.1
       tslib: 2.4.1
-      typescript: 4.9.4
+      typescript: 4.9.5
 
   js/private/test/image:
     specifiers:
@@ -173,7 +173,7 @@ importers:
       google-protobuf: 3.21.2
       rollup: 2.79.1
       tslib: 2.5.0
-      typescript: 4.9.4
+      typescript: 4.9.5
     dependencies:
       google-protobuf: 3.21.2
     devDependencies:
@@ -181,12 +181,12 @@ importers:
       '@rollup/plugin-json': 5.0.0_rollup@2.79.1
       '@rollup/plugin-node-resolve': 15.0.0_rollup@2.79.1
       '@rollup/plugin-terser': 0.2.0_rollup@2.79.1
-      '@rollup/plugin-typescript': 10.0.1_bgwi2fgwyi362qsw25gfipc3ca
+      '@rollup/plugin-typescript': 10.0.1_bhcmvni67fkldpaxrtldxbogce
       '@types/google-protobuf': registry.npmjs.org/@types/google-protobuf/3.15.6
       '@types/node': registry.npmjs.org/@types/node/18.11.18
       rollup: 2.79.1
       tslib: 2.5.0
-      typescript: 4.9.4
+      typescript: 4.9.5
 
   npm/private/test:
     specifiers:
@@ -846,7 +846,7 @@ packages:
       terser: 5.16.1
     dev: true
 
-  /@rollup/plugin-typescript/10.0.1_bgwi2fgwyi362qsw25gfipc3ca:
+  /@rollup/plugin-typescript/10.0.1_bhcmvni67fkldpaxrtldxbogce:
     resolution: {integrity: sha512-wBykxRLlX7EzL8BmUqMqk5zpx2onnmRMSw/l9M1sVfkJvdwfxogZQVNUM9gVMJbjRLDR5H6U0OMOrlDGmIV45A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -863,10 +863,10 @@ packages:
       resolve: 1.22.1
       rollup: 2.79.1
       tslib: 2.5.0
-      typescript: 4.9.4
+      typescript: 4.9.5
     dev: true
 
-  /@rollup/plugin-typescript/10.0.1_sbiskyiysxhldmns7rmnvoiszu:
+  /@rollup/plugin-typescript/10.0.1_p4zxjh3csaan62zu4p3amdofcm:
     resolution: {integrity: sha512-wBykxRLlX7EzL8BmUqMqk5zpx2onnmRMSw/l9M1sVfkJvdwfxogZQVNUM9gVMJbjRLDR5H6U0OMOrlDGmIV45A==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
@@ -883,7 +883,7 @@ packages:
       resolve: 1.22.1
       rollup: 2.79.1
       tslib: 2.4.1
-      typescript: 4.9.4
+      typescript: 4.9.5
     dev: true
 
   /@rollup/pluginutils/3.1.0_rollup@2.70.2:
@@ -5803,6 +5803,12 @@ packages:
     hasBin: true
     dev: true
 
+  /typescript/4.9.5:
+    resolution: {integrity: sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: true
+
   /underscore/1.13.6:
     resolution: {integrity: sha512-+A5Sja4HP1M08MaXya7p5LvjuM7K6q/2EaC0+iovj/wOcMsTzMvDFbasi/oSapiwOlt252IqsKqPjCl7huKS0A==}
     dev: true
@@ -6369,7 +6375,7 @@ packages:
       tar: 6.1.13
       tmp-promise: 3.0.3
       tslib: 2.5.0
-      typescript: 4.9.4
+      typescript: 4.9.5
       underscore: 1.13.6
       ws: 8.12.0_bufferutil@4.0.1
     optionalDependencies:
